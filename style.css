@@ -1,0 +1,46 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: #3e1069;
+}
+
+.upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.upload h1{
+    margin-bottom: 20px;
+}
+
+.upload div{
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+form{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+input{
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
